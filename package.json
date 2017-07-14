@@ -1,0 +1,33 @@
+{
+  "name": "mega-url-regex",
+  "version": "0.0.0",
+  "description": "Regular expression for matching MEGA URLs",
+  "license": "MIT",
+  "repository": "jlobos/mega-url-regex",
+  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "mega",
+    "storage",
+    "url",
+    "regex",
+    "validation"
+  ],
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "xo": "^0.18.2"
+  }
+}
